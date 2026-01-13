@@ -1,77 +1,147 @@
-# 🚖 OLA Ride Data Analysis | Power BI Dashboard
+# 🚕 OLA Data Analysis Dashboard (Power BI)
 
-This project analyzes OLA ride booking data to understand customer behavior, revenue trends, ride performance, cancellations, and ratings using Power BI.
-
-The goal of this project is to build an interactive dashboard that helps OLA’s business team make data-driven decisions.
-
----
-
-## 🔍 Business Problem
-OLA operates thousands of rides daily. Business teams need insights on:
-- Ride trends over time
-- Revenue sources
-- Vehicle performance
-- Customer & driver ratings
-- Cancellation patterns
-
-This dashboard converts raw ride data into clear business insights.
+This project presents an end-to-end data analysis of OLA ride bookings using **Power BI**.  
+The dashboard helps business teams understand booking trends, revenue, cancellations, vehicle performance, and customer/driver ratings.
 
 ---
 
-## 📊 Dashboards Planned
+## 📌 Project Objective
+To analyze OLA ride data and build an interactive dashboard that provides:
+- Ride performance over time
+- Revenue insights
+- Vehicle category analysis
+- Cancellation behavior
+- Driver & customer satisfaction
 
-### 1️⃣ Overall View
-- Ride Volume Over Time  
-- Booking Status Breakdown  
+This dashboard can help OLA improve operations, reduce cancellations, and increase revenue.
+
+---
+
+## 📊 Dashboard Overview
+
+The Power BI dashboard is divided into **5 interactive views**:
+
+### 1️⃣ Overall Performance
+- **Total Bookings:** 20,407  
+- **Total Booking Value:** ₹7M  
+- **Ride Volume Over Time** (daily trend)  
+- **Booking Status Breakdown**
+  - 62% Successful
+  - ~18% Cancelled by Driver
+  - ~10% Cancelled by Customer
+  - ~10% Driver Not Found  
+
+*(Based on Overall page of the dashboard)*
+
+---
 
 ### 2️⃣ Vehicle Type Analysis
-- Top 5 Vehicle Types by Ride Distance  
+Compares different vehicle categories such as:
+- Prime Sedan
+- Prime SUV
+- Prime Plus
+- Mini
+- Auto
+- Bike
+- E-Bike
+
+For each vehicle type, the dashboard shows:
+- Total Booking Value  
+- Successful Booking Value  
+- Average Distance Travelled  
+- Total Distance Travelled  
+
+This helps identify which vehicle types contribute the most to revenue and distance.
+
+---
 
 ### 3️⃣ Revenue Analysis
-- Revenue by Payment Method  
-- Top 5 Customers by Total Booking Value  
-- Ride Distance Distribution per Day  
+Shows:
+- **Revenue by Payment Method**  
+  (Cash, UPI, Credit Card, Debit Card)
+- **Top 5 Customers by Booking Value**
+- **Ride Distance Per Day**
+
+This view helps understand:
+- Which payment methods generate the most revenue
+- Who the highest-value customers are
+- How travel volume changes daily
+
+---
 
 ### 4️⃣ Cancellation Analysis
-- Cancelled Rides Reasons (Customer)  
-- Cancelled Rides Reasons (Driver)  
+Breakdown of **why rides are cancelled**:
+
+**Customer Side:**
+- Driver not moving towards pickup
+- Driver asked to cancel
+- Change of plans
+- AC not working
+- Wrong address
+
+**Driver Side:**
+- Personal or vehicle issues
+- Customer related issues
+- Customer behavior
+- Too many passengers
+
+Also shows:
+- Total bookings: 20,407  
+- Successful bookings: 12,652  
+- Cancelled bookings: 5,735  
+- Cancellation rate: 28%
+
+This helps OLA identify major cancellation problems.
+
+---
 
 ### 5️⃣ Ratings Analysis
-- Driver Rating Distribution  
-- Customer Rating Distribution  
-- Customer vs Driver Ratings  
+Displays:
+- **Driver Ratings by Vehicle Type**
+- **Customer Ratings by Vehicle Type**
+
+Ratings are around **4.0**, showing generally good service quality.
 
 ---
 
-## 📈 Visualizations Used
-- Line Charts  
-- Bar Charts  
-- Pie / Donut Charts  
-- Histogram  
-- Scatter Plot  
-- Leaderboard  
-- Box Plot  
+## 🛠 Tools & Technologies Used
+- **Power BI Desktop**
+- Data Cleaning & Modeling
+- DAX Measures
+- Interactive Filters & Slicers
+- KPI Cards, Line Charts, Bar Charts, Pie Charts, Tables
 
 ---
 
-## 🛠 Tools & Technologies
-- Power BI  
-- Microsoft Excel  
-- DAX  
-- Data Modeling  
-- Data Cleaning  
+## 📷 Dashboard Screenshots
+
+| Overall | Vehicle Type |
+|--------|---------------|
+| ![](Screenshots/ola_dashboard_1.png) | ![](Screenshots/ola_dashboard_2.png) |
+
+| Revenue | Cancellation |
+|--------|----------------|
+| ![](Screenshots/ola_dashboard_3.png) | ![](Screenshots/ola_dashboard_4.png) |
+
+| Ratings |
+|---------|
+| ![](Screenshots/ola_dashboard_5.png) |
 
 ---
 
-## 📌 Status
-🟡 In Progress  
-Dashboards and insights are currently being built. Screenshots and PBIX file will be added once completed.
+## 💼 Why this project is strong for Data Analyst roles
+This project demonstrates:
+- Real-world business KPIs
+- Revenue & operations analysis
+- Customer & driver behavior insights
+- Dashboard design and storytelling
+- Power BI professional reporting
 
 ---
 
-## 🎯 Outcome
-This project will help:
-- Identify top-performing vehicles
-- Detect revenue drivers
-- Reduce cancellations
-- Improve customer experience
+
+
+## 👩‍💻 Author
+**Sindhu**  
+Aspiring Data Analyst | Power BI | SQL | Python  
+
